@@ -178,3 +178,5 @@ def search_hr_policy(query:str)->str:
         context_parts.append(f'[来源{i}]{chapter}>{section}\n{doc.page_content}]')
     merged_context='\n\n'.join(context_parts)
     return f'[知识库检索结果]\n{merged_context}'
+
+# Actor-Critic 执行者-审计者:反思架构
